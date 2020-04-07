@@ -1,0 +1,1411 @@
+/ *!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licenciado bajo MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * /
+
+/ *!
+ * Generado con el Personalizador de Bootstrap (http://getbootstrap.com/customize/?id=ae583f2e4d44e54716e5)
+ * Configuración guardada en config.json y https://gist.github.com/ae583f2e4d44e54716e5
+ * /
+/ *! normalize.css v3.0.2 | Licencia MIT | git.io/normalize * /
+
+/ ** {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  tamaño de la caja: border-box;
+}
+*:antes de,
+*:después {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  tamaño de la caja: border-box;
+} * /
+
+.fila {
+  margen izquierdo: -5px;
+  margen derecho: -5px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2,. col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col -md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col- sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs -8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg- 9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11 , .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  posición: relativa;
+  altura mínima: 1px;
+  relleno-izquierda: 5px;
+  relleno derecho: 5px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7,. col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  flotador izquierdo;
+}
+.col-xs-12 {
+  ancho: 100%;
+}
+.col-xs-11 {
+  ancho: 91.66666667%;
+}
+.col-xs-10 {
+  ancho: 83.33333333%;
+}
+.col-xs-9 {
+  ancho: 75%;
+}
+.col-xs-8 {
+  ancho: 66.66666667%;
+}
+.col-xs-7 {
+  ancho: 58.33333333%;
+}
+.col-xs-6 {
+  ancho: 50%;
+}
+.col-xs-5 {
+  ancho: 41.66666667%;
+}
+.col-xs-4 {
+  ancho: 33.33333333%;
+}
+.col-xs-3 {
+  ancho: 25%;
+}
+.col-xs-2 {
+  ancho: 16.66666667%;
+}
+.col-xs-1 {
+  ancho: 8.33333333%;
+}
+.col-xs-pull-12 {
+  derecha: 100%;
+}
+.col-xs-pull-11 {
+  derecha: 91.66666667%;
+}
+.col-xs-pull-10 {
+  derecha: 83.33333333%;
+}
+.col-xs-pull-9 {
+  derecha: 75%;
+}
+.col-xs-pull-8 {
+  derecha: 66.66666667%;
+}
+.col-xs-pull-7 {
+  derecha: 58.33333333%;
+}
+.col-xs-pull-6 {
+  derecha: 50%;
+}
+.col-xs-pull-5 {
+  derecha: 41.66666667%;
+}
+.col-xs-pull-4 {
+  derecha: 33.33333333%;
+}
+.col-xs-pull-3 {
+  derecha: 25%;
+}
+.col-xs-pull-2 {
+  derecha: 16.66666667%;
+}
+.col-xs-pull-1 {
+  derecha: 8.33333333%;
+}
+.col-xs-pull-0 {
+  derecha: auto;
+}
+.col-xs-push-12 {
+  izquierda: 100%;
+}
+.col-xs-push-11 {
+  izquierda: 91.66666667%;
+}
+.col-xs-push-10 {
+  izquierda: 83.33333333%;
+}
+.col-xs-push-9 {
+  izquierda: 75%;
+}
+.col-xs-push-8 {
+  izquierda: 66.66666667%;
+}
+.col-xs-push-7 {
+  izquierda: 58.33333333%;
+}
+.col-xs-push-6 {
+  izquierda: 50%;
+}
+.col-xs-push-5 {
+  izquierda: 41.66666667%;
+}
+.col-xs-push-4 {
+  izquierda: 33.33333333%;
+}
+.col-xs-push-3 {
+  izquierda: 25%;
+}
+.col-xs-push-2 {
+  izquierda: 16,66666667%;
+}
+.col-xs-push-1 {
+  izquierda: 8.33333333%;
+}
+.col-xs-push-0 {
+  izquierda: auto;
+}
+.col-xs-offset-12 {
+  margen izquierdo: 100%;
+}
+.col-xs-offset-11 {
+  margen izquierdo: 91.66666667%;
+}
+.col-xs-offset-10 {
+  margen izquierdo: 83.33333333%;
+}
+.col-xs-offset-9 {
+  margen izquierdo: 75%;
+}
+.col-xs-offset-8 {
+  margen izquierdo: 66.66666667%;
+}
+.col-xs-offset-7 {
+  margen izquierdo: 58.33333333%;
+}
+.col-xs-offset-6 {
+  margen izquierdo: 50%;
+}
+.col-xs-offset-5 {
+  margen izquierdo: 41.66666667%;
+}
+.col-xs-offset-4 {
+  margen izquierdo: 33.33333333%;
+}
+.col-xs-offset-3 {
+  margen izquierdo: 25%;
+}
+.col-xs-offset-2 {
+  margen izquierdo: 16,66666667%;
+}
+.col-xs-offset-1 {
+  margen izquierdo: 8.33333333%;
+}
+.col-xs-offset-0 {
+  margen izquierdo: 0%;
+}
+
+/ * ===== Para complementos ====== * /
+.gs .panel {
+    margen inferior: 20px;
+    color de fondo: #fff;
+    borde: 1px sólido transparente;
+    radio de borde: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba (0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba (0,0,0,0.05);
+}
+
+.gs .panel-default {
+  color del borde: #ddd;
+  margen inferior: 20px;
+}
+
+.gs .panel-header {
+  / * relleno: 10px 15px;
+  borde inferior: 1px sólido transparente;
+  radio de borde superior derecho: 3px;
+  radio de borde superior izquierdo: 3px; * /
+}
+
+.gs .panel-body {
+  relleno: 15px 15px 1px;
+}
+
+.gs .nav {
+  relleno-izquierda: 0;
+  margen inferior: 0;
+  estilo de lista: ninguno;
+} 
+
+.gs .nav> li {
+  posición: relativa;
+  bloqueo de pantalla;
+} 
+
+.gs .nav> li> a {
+  posición: relativa;
+  acolchado: 10px 15px;
+  decoración de texto: ninguno;
+}
+
+.gs .nav-pills> li.active> a, 
+.gs .nav-pills> li.active> a: hover, 
+.gs .nav-pills> li.active> a: focus {
+  color: #fff;
+  color de fondo: # 428bca;
+}
+
+.gs .nav-pills> li> a {
+  radio de borde: 4px;
+}
+
+.gs .media> .pull-left {
+  margen derecho: 10px;
+}
+
+.gs img {
+  alineación vertical: medio;
+  borde: 0;
+}
+
+.gs .img-redondeado {
+  radio de borde: 6px;
+}
+
+.gs a {
+  decoración de texto: ninguno;
+}
+.gs a: hover, .gs a: focus {
+  color: # 2a6496;
+  decoración de texto: subrayado;
+}
+
+.gs .btn-success: hover, .gs .btn-success: focus, .gs .btn-success: active, .gs .btn-success.active, .gs .open .dropdown-toggle.btn-success {
+  color: #fff;
+  color de fondo: # 47a447;
+  color del borde: # 398439;
+}
+
+.gs .btn-info: hover, .gs .btn-info: foco, .gs .btn-info: activo, .gs .btn-info.active, .gs .open .dropdown-toggle.btn-info {
+  color: #fff;
+  color de fondo: # 39b3d7;
+  color del borde: # 269abc;
+}
+
+.gs .btn-primary: hover, .gs .btn-primary: foco, .gs .btn-primary: activo, .gs .btn-primary.active, .gs .open .dropdown-toggle.btn-primary {
+  color: #fff;
+  color de fondo: # 3276b1;
+  color del borde: # 285e8e;
+}
+
+.gs .btn-sm, .gs .btn-xs {
+  relleno: 5px 10px! importante;
+  tamaño de fuente: 12px;
+  altura de línea: 1.5;
+   pantalla: bloque en línea;
+}
+
+.gs .btn-success {
+  color: #fff;
+  color de fondo: # 5cb85c;
+  color del borde: # 4cae4c;
+}
+
+.gs .btn-info {
+  color: #fff;
+  color de fondo: # 5bc0de;
+  color del borde: # 46b8da;
+}
+
+.gs .btn-primary {
+  color: #fff;
+  color de fondo: # 428bca;
+  color del borde: # 357ebd;
+}
+
+.gs .label-warning {
+  color de fondo: # f0ad4e;
+}
+
+.gs .panel-footer {
+  acolchado: 10px 15px;
+  color de fondo: # f5f5f5;
+  border-top: 1px solid #ddd;
+  borde-fondo-derecho-radio: 3px;
+  radio de borde inferior izquierdo: 3px;
+}
+
+.gs .panel-footer a {
+  decoración de texto: ninguno;
+}
+
+@media (ancho mínimo: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7,. col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    flotador izquierdo;
+  }
+  .col-sm-12 {
+    ancho: 100%;
+  }
+  .col-sm-11 {
+    ancho: 91.66666667%;
+  }
+  .col-sm-10 {
+    ancho: 83.33333333%;
+  }
+  .col-sm-9 {
+    ancho: 75%;
+  }
+  .col-sm-8 {
+    ancho: 66.66666667%;
+  }
+  .col-sm-7 {
+    ancho: 58.33333333%;
+  }
+  .col-sm-6 {
+    ancho: 50%;
+  }
+  .col-sm-5 {
+    ancho: 41.66666667%;
+  }
+  .col-sm-4 {
+    ancho: 33.33333333%;
+  }
+  .col-sm-3 {
+    ancho: 25%;
+  }
+  .col-sm-2 {
+    ancho: 16.66666667%;
+  }
+  .col-sm-1 {
+    ancho: 8.33333333%;
+  }
+  .col-sm-pull-12 {
+    derecha: 100%;
+  }
+  .col-sm-pull-11 {
+    derecha: 91.66666667%;
+  }
+  .col-sm-pull-10 {
+    derecha: 83.33333333%;
+  }
+  .col-sm-pull-9 {
+    derecha: 75%;
+  }
+  .col-sm-pull-8 {
+    derecha: 66.66666667%;
+  }
+  .col-sm-pull-7 {
+    derecha: 58.33333333%;
+  }
+  .col-sm-pull-6 {
+    derecha: 50%;
+  }
+  .col-sm-pull-5 {
+    derecha: 41.66666667%;
+  }
+  .col-sm-pull-4 {
+    derecha: 33.33333333%;
+  }
+  .col-sm-pull-3 {
+    derecha: 25%;
+  }
+  .col-sm-pull-2 {
+    derecha: 16.66666667%;
+  }
+  .col-sm-pull-1 {
+    derecha: 8.33333333%;
+  }
+  .col-sm-pull-0 {
+    derecha: auto;
+  }
+  .col-sm-push-12 {
+    izquierda: 100%;
+  }
+  .col-sm-push-11 {
+    izquierda: 91.66666667%;
+  }
+  .col-sm-push-10 {
+    izquierda: 83.33333333%;
+  }
+  .col-sm-push-9 {
+    izquierda: 75%;
+  }
+  .col-sm-push-8 {
+    izquierda: 66.66666667%;
+  }
+  .col-sm-push-7 {
+    izquierda: 58.33333333%;
+  }
+  .col-sm-push-6 {
+    izquierda: 50%;
+  }
+  .col-sm-push-5 {
+    izquierda: 41.66666667%;
+  }
+  .col-sm-push-4 {
+    izquierda: 33.33333333%;
+  }
+  .col-sm-push-3 {
+    izquierda: 25%;
+  }
+  .col-sm-push-2 {
+    izquierda: 16,66666667%;
+  }
+  .col-sm-push-1 {
+    izquierda: 8.33333333%;
+  }
+  .col-sm-push-0 {
+    izquierda: auto;
+  }
+  .col-sm-offset-12 {
+    margen izquierdo: 100%;
+  }
+  .col-sm-offset-11 {
+    margen izquierdo: 91.66666667%;
+  }
+  .col-sm-offset-10 {
+    margen izquierdo: 83.33333333%;
+  }
+  .col-sm-offset-9 {
+    margen izquierdo: 75%;
+  }
+  .col-sm-offset-8 {
+    margen izquierdo: 66.66666667%;
+  }
+  .col-sm-offset-7 {
+    margen izquierdo: 58.33333333%;
+  }
+  .col-sm-offset-6 {
+    margen izquierdo: 50%;
+  }
+  .col-sm-offset-5 {
+    margen izquierdo: 41.66666667%;
+  }
+  .col-sm-offset-4 {
+    margen izquierdo: 33.33333333%;
+  }
+  .col-sm-offset-3 {
+    margen izquierdo: 25%;
+  }
+  .col-sm-offset-2 {
+    margen izquierdo: 16,66666667%;
+  }
+  .col-sm-offset-1 {
+    margen izquierdo: 8.33333333%;
+  }
+  .col-sm-offset-0 {
+    margen izquierdo: 0%;
+  }
+}
+@media (ancho mínimo: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7,. col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    flotador izquierdo;
+  }
+  .col-md-12 {
+    ancho: 100%;
+  }
+  .col-md-11 {
+    ancho: 91.66666667%;
+  }
+  .col-md-10 {
+    ancho: 83.33333333%;
+  }
+  .col-md-9 {
+    ancho: 75%;
+  }
+  .col-md-8 {
+    ancho: 66.66666667%;
+  }
+  .col-md-7 {
+    ancho: 58.33333333%;
+  }
+  .col-md-6 {
+    ancho: 50%;
+  }
+  .col-md-5 {
+    ancho: 41.66666667%;
+  }
+  .col-md-4 {
+    ancho: 33.33333333%;
+  }
+  .col-md-3 {
+    ancho: 25%;
+  }
+  .col-md-2 {
+    ancho: 16.66666667%;
+  }
+  .col-md-1 {
+    ancho: 8.33333333%;
+  }
+  .col-md-pull-12 {
+    derecha: 100%;
+  }
+  .col-md-pull-11 {
+    derecha: 91.66666667%;
+  }
+  .col-md-pull-10 {
+    derecha: 83.33333333%;
+  }
+  .col-md-pull-9 {
+    derecha: 75%;
+  }
+  .col-md-pull-8 {
+    derecha: 66.66666667%;
+  }
+  .col-md-pull-7 {
+    derecha: 58.33333333%;
+  }
+  .col-md-pull-6 {
+    derecha: 50%;
+  }
+  .col-md-pull-5 {
+    derecha: 41.66666667%;
+  }
+  .col-md-pull-4 {
+    derecha: 33.33333333%;
+  }
+  .col-md-pull-3 {
+    derecha: 25%;
+  }
+  .col-md-pull-2 {
+    derecha: 16.66666667%;
+  }
+  .col-md-pull-1 {
+    derecha: 8.33333333%;
+  }
+  .col-md-pull-0 {
+    derecha: auto;
+  }
+  .col-md-push-12 {
+    izquierda: 100%;
+  }
+  .col-md-push-11 {
+    izquierda: 91.66666667%;
+  }
+  .col-md-push-10 {
+    izquierda: 83.33333333%;
+  }
+  .col-md-push-9 {
+    izquierda: 75%;
+  }
+  .col-md-push-8 {
+    izquierda: 66.66666667%;
+  }
+  .col-md-push-7 {
+    izquierda: 58.33333333%;
+  }
+  .col-md-push-6 {
+    izquierda: 50%;
+  }
+  .col-md-push-5 {
+    izquierda: 41.66666667%;
+  }
+  .col-md-push-4 {
+    izquierda: 33.33333333%;
+  }
+  .col-md-push-3 {
+    izquierda: 25%;
+  }
+  .col-md-push-2 {
+    izquierda: 16,66666667%;
+  }
+  .col-md-push-1 {
+    izquierda: 8.33333333%;
+  }
+  .col-md-push-0 {
+    izquierda: auto;
+  }
+  .col-md-offset-12 {
+    margen izquierdo: 100%;
+  }
+  .col-md-offset-11 {
+    margen izquierdo: 91.66666667%;
+  }
+  .col-md-offset-10 {
+    margen izquierdo: 83.33333333%;
+  }
+  .col-md-offset-9 {
+    margen izquierdo: 75%;
+  }
+  .col-md-offset-8 {
+    margen izquierdo: 66.66666667%;
+  }
+  .col-md-offset-7 {
+    margen izquierdo: 58.33333333%;
+  }
+  .col-md-offset-6 {
+    margen izquierdo: 50%;
+  }
+  .col-md-offset-5 {
+    margen izquierdo: 41.66666667%;
+  }
+  .col-md-offset-4 {
+    margen izquierdo: 33.33333333%;
+  }
+  .col-md-offset-3 {
+    margen izquierdo: 25%;
+  }
+  .col-md-offset-2 {
+    margen izquierdo: 16,66666667%;
+  }
+  .col-md-offset-1 {
+    margen izquierdo: 8.33333333%;
+  }
+  .col-md-offset-0 {
+    margen izquierdo: 0%;
+  }
+}
+@media (ancho mínimo: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7,. col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    flotador izquierdo;
+  }
+  .col-lg-12 {
+    ancho: 100%;
+  }
+  .col-lg-11 {
+    ancho: 91.66666667%;
+  }
+  .col-lg-10 {
+    ancho: 83.33333333%;
+  }
+  .col-lg-9 {
+    ancho: 75%;
+  }
+  .col-lg-8 {
+    ancho: 66.66666667%;
+  }
+  .col-lg-7 {
+    ancho: 58.33333333%;
+  }
+  .col-lg-6 {
+    ancho: 50%;
+  }
+  .col-lg-5 {
+    ancho: 41.66666667%;
+  }
+  .col-lg-4 {
+    ancho: 33.33333333%;
+  }
+  .col-lg-3 {
+    ancho: 25%;
+  }
+  .col-lg-2 {
+    ancho: 16.66666667%;
+  }
+  .col-lg-1 {
+    ancho: 8.33333333%;
+  }
+  .col-lg-pull-12 {
+    derecha: 100%;
+  }
+  .col-lg-pull-11 {
+    derecha: 91.66666667%;
+  }
+  .col-lg-pull-10 {
+    derecha: 83.33333333%;
+  }
+  .col-lg-pull-9 {
+    derecha: 75%;
+  }
+  .col-lg-pull-8 {
+    derecha: 66.66666667%;
+  }
+  .col-lg-pull-7 {
+    derecha: 58.33333333%;
+  }
+  .col-lg-pull-6 {
+    derecha: 50%;
+  }
+  .col-lg-pull-5 {
+    derecha: 41.66666667%;
+  }
+  .col-lg-pull-4 {
+    derecha: 33.33333333%;
+  }
+  .col-lg-pull-3 {
+    derecha: 25%;
+  }
+  .col-lg-pull-2 {
+    derecha: 16.66666667%;
+  }
+  .col-lg-pull-1 {
+    derecha: 8.33333333%;
+  }
+  .col-lg-pull-0 {
+    derecha: auto;
+  }
+  .col-lg-push-12 {
+    izquierda: 100%;
+  }
+  .col-lg-push-11 {
+    izquierda: 91.66666667%;
+  }
+  .col-lg-push-10 {
+    izquierda: 83.33333333%;
+  }
+  .col-lg-push-9 {
+    izquierda: 75%;
+  }
+  .col-lg-push-8 {
+    izquierda: 66.66666667%;
+  }
+  .col-lg-push-7 {
+    izquierda: 58.33333333%;
+  }
+  .col-lg-push-6 {
+    izquierda: 50%;
+  }
+  .col-lg-push-5 {
+    izquierda: 41.66666667%;
+  }
+  .col-lg-push-4 {
+    izquierda: 33.33333333%;
+  }
+  .col-lg-push-3 {
+    izquierda: 25%;
+  }
+  .col-lg-push-2 {
+    izquierda: 16,66666667%;
+  }
+  .col-lg-push-1 {
+    izquierda: 8.33333333%;
+  }
+  .col-lg-push-0 {
+    izquierda: auto;
+  }
+  .col-lg-offset-12 {
+    margen izquierdo: 100%;
+  }
+  .col-lg-offset-11 {
+    margen izquierdo: 91.66666667%;
+  }
+  .col-lg-offset-10 {
+    margen izquierdo: 83.33333333%;
+  }
+  .col-lg-offset-9 {
+    margen izquierdo: 75%;
+  }
+  .col-lg-offset-8 {
+    margen izquierdo: 66.66666667%;
+  }
+  .col-lg-offset-7 {
+    margen izquierdo: 58.33333333%;
+  }
+  .col-lg-offset-6 {
+    margen izquierdo: 50%;
+  }
+  .col-lg-offset-5 {
+    margen izquierdo: 41.66666667%;
+  }
+  .col-lg-offset-4 {
+    margen izquierdo: 33.33333333%;
+  }
+  .col-lg-offset-3 {
+    margen izquierdo: 25%;
+  }
+  .col-lg-offset-2 {
+    margen izquierdo: 16,66666667%;
+  }
+  .col-lg-offset-1 {
+    margen izquierdo: 8.33333333%;
+  }
+  .col-lg-offset-0 {
+    margen izquierdo: 0%;
+  }
+}
+
+.row: antes,
+.row: después de {
+  contenido: " ";
+  pantalla: mesa;
+}
+
+.row: después de {
+  Limpia los dos;
+}
+
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+
+.clearfix: antes,
+.clearfix: después de {
+    contenido: " ";
+    pantalla: mesa;
+}
+
+.clearfix: después de {
+  Limpia los dos;
+}
+
+
+
+/ *!
+ * Font Awesome 4.7.0 por @davegandy - http://fontawesome.io - @fontawesome
+ * Licencia - http://fontawesome.io/license (Fuente: SIL OFL 1.1, CSS: Licencia MIT)
+ * / @ font-face {font-family: 'FontAwesome'; src: url ('../ fonts / fontawesome-webfont.eot? v = 4.7.0'); src: url ('../ fonts / fontawesome -webfont.eot? # iefix & v = 4.7.0 ') formato (' embedded-opentype '), url (' ../ fonts / fontawesome-webfont.woff2? v = 4.7.0 ') formato (' woff2 '), Formato url ('../ fonts / fontawesome-webfont.woff? v = 4.7.0') ('woff'), formato url ('../ fonts / fontawesome-webfont.ttf? v = 4.7.0') ('truetype'), url ('../ fonts / fontawesome-webfont.svg? v = 4.7.0 # fontawesomeregular') formato ('svg'); font-weight: normal; font-style: normal} .fa {pantalla: bloque en línea; fuente: normal normal normal 14px / 1 FontAwesome; tamaño de fuente: heredar; representación de texto: automática; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: escala de grises}. fa-lg {font-size: 1.33333333em; line-height: .75em; vertical-align: -15%}. fa-2x {font-size:2em} .fa-3x {font-size: 3em} .fa-4x {font-size: 4em} .fa-5x {font-size: 5em} .fa-fw {ancho: 1.28571429em; text-align: center } .fa-ul {padding-left: 0; margin-left: 2.14285714em; list-style-type: none} .fa-ul> li {position: relative} .fa-li {position: absolute; left: - 2.14285714em; ancho: 2.14285714em; parte superior: .14285714em; alineación de texto: centro} .fa-li.fa-lg {izquierda: -1.85714286em} .fa-border {relleno: .2em .25em .15em; borde: sólido .08em #eee; radio del borde: .1em} .fa-pull-left {float: left} .fa-pull-right {float: right} .fa.fa-pull-left {margin-right: .3em } .fa.fa-pull-right {margin-left: .3em} .pull-right {float: right} .pull-left {float: left} .fa.pull-left {margin-right: .3em}. fa.pull-right {margin-left: .3em} .fa-spin {-webkit-animation: fa-spin 2s infinite linear; animación: fa-spin 2s infinite linear} .fa-pulse {-webkit-animation: fa -spin 1s infinitos pasos (8); animación:fa-spin 1s pasos infinitos (8)} @ - webkit-keyframes fa-spin {0% {- webkit-transform: rotate (0deg); transform: rotate (0deg)} 100% {- webkit-transform: rotate (359deg ); transform: rotate (359deg)}} @ keyframes fa-spin {0% {- webkit-transform: rotate (0deg); transform: rotate (0deg)} 100% {- webkit-transform: rotate (359deg); transform : rotate (359deg)}}. fa-rotate-90 {-ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotacion = 1)"; - webkit-transform: rotate (90deg); - ms-transform: rotate (90deg); transform: rotate (90deg)}. Fa-rotate-180 {-ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotacion = 2)"; - webkit-transform: rotate (180deg); - ms -transform: rotate (180deg); transform: rotate (180deg)}. fa-rotate-270 {-ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotación = 3)"; - webkit-transform: rotate (270deg ); - ms-transform: rotate (270deg); transform: rotate (270deg)}.fa-flip-horizontal {-ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotación = 0, espejo = 1)"; - webkit-transform: scale (-1, 1); - ms-transform: scale ( -1, 1); transform: scale (-1, 1)}. Fa-flip-vertical {-ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotación = 2, espejo = 1)"; - webkit- transform: scale (1, -1); - ms-transform: scale (1, -1); transform: scale (1, -1)}: root .fa-rotate-90,: root .fa-rotate-180 ,: root .fa-rotate-270,: root .fa-flip-horizontal,: root .fa-flip-vertical {filter: none} .fa-stack {position: relative; display: inline-block; width: 2em ; altura: 2em; altura de línea: 2em; alineación vertical: media} .fa-stack-1x, .fa-stack-2x {posición: absoluta; izquierda: 0; ancho: 100%; alineación de texto: centro} .fa-stack-1x {line-height: heredar} .fa-stack-2x {font-size: 2em} .fa-inverse {color: #fff} .fa-glass: before {content: "\ f000"} .fa-music: before {content: "\ f001"} .fa-search: before {content: "\ f002"}. fa-envolvente-o: before {content: "\ f003"}. fa-heart: before {content: "\ f004"}. fa-star: before {content: "\ f005"}. fa-star-o: before {content: "\ f006"}. fa-user: before {content: "\ f007"}. fa-film: before {content: "\ f008 "}. fa-th-large: antes {content:" \ f009 "}. fa-th: before {content:" \ f00a "}. fa-th-list: before {content:" \ f00b "}. fa-check: before {content: "\ f00c"}. fa-remove: before, .fa-close: before, .fa-times: before {content: "\ f00d"}. fa-search-plus: before { content: "\ f00e"}. fa-search-minus: before {content: "\ f010"}. fa-power-off: before {content: "\ f011"}. fa-signal: before {content: "\ f012 "}. fa-gear: before, .fa-cog: before {content:" \ f013 "}. fa-trash-o: before {content:" \ f014 "}. fa-home:before {content: "\ f015"}. fa-file-o: before {content: "\ f016"}. fa-clock-o: before {content: "\ f017"}. fa-road: before {content: "\ f018"}. fa-download: antes {content: "\ f019"}. fa-arrow-circle-o-down: antes {content: "\ f01a"}. fa-arrow-circle-o-up: before {content: "\ f01b"}. fa-inbox: before {content: "\ f01c"}. fa-play-circle-o: before {content: "\ f01d"}. fa-rotate-right: before, .fa-repeat: before {content: "\ f01e"}. fa-refresh: before {content: "\ f021"}. fa-list-alt: before {content: "\ f022"}. fa-lock: before {content: "\ f023"}. fa-flag: before {content: "\ f024"}. fa-auriculares: antes {content: "\ f025"}. fa-volume-off: antes {content: "\ f026 "} .fa-subir-volumen: antes de {contenido:" \ f027 "}. fa-subir-volumen: antes de {contenido:" \ f028 "}.fa-qrcode: before {content: "\ f029"}. fa-barcode: before {content: "\ f02a"}. fa-tag: before {content: "\ f02b"}. fa-tags: before {content: "\ f02c"}. fa-book: before {content: "\ f02d"}. fa-bookmark: before {content: "\ f02e"}. fa-print: before {content: "\ f02f"}. fa- camera: before {content: "\ f030"}. fa-font: before {content: "\ f031"}. fa-bold: before {content: "\ f032"}. fa-italic: before {content: "\ f033 "}. fa-text-height: before {content:" \ f034 "}. fa-text-width: before {content:" \ f035 "}. fa-align-left: before {content:" \ f036 " } .fa-align-center: before {content: "\ f037"}. fa-align-right: before {content: "\ f038"}. fa-align-justify: before {content: "\ f039"}. fa-list: before {content: "\ f03a"}. fa-dedent: before, .fa-outdent: before {content:"\ f03b"}. fa-indent: before {content: "\ f03c"}. fa-video-camera: before {content: "\ f03d"}. fa-photo: before, .fa-image: before ,. fa-picture-o: before {content: "\ f03e"}. fa-pencil: before {content: "\ f040"}. fa-map-marker: before {content: "\ f041"}. fa-ajustar: before {content: "\ f042"}. fa-tint: before {content: "\ f043"}. fa-edit: before, .fa-pencil-square-o: before {content: "\ f044"}. fa -share-square-o: before {content: "\ f045"}. fa-check-square-o: before {content: "\ f046"}. fa-arrows: before {content: "\ f047"}. fa -paso-retroceso: antes {content: "\ f048"}. fa-fast-backward: before {content: "\ f049"}. fa-backward: before {content: "\ f04a"}. fa-play: before {content: "\ f04b"}. fa-pause: before {content: "\ f04c"}. fa-stop: before {content: "\ f04d "}. fa-forward: antes {content:" \ f04e "}. fa-fast-forward: before {content:" \ f050 "}. fa-step-forward: before {content:" \ f051 "} .fa-eject: before {content: "\ f052"}. fa-chevron-left: before {content: "\ f053"}. fa-chevron-right: before {content: "\ f054"}. fa-plus -circle: before {content: "\ f055"}. fa-minus-circle: before {content: "\ f056"}. fa-times-circle: before {content: "\ f057"}. fa-check-circle : antes {content: "\ f058"}. fa-question-circle: before {content: "\ f059"}. fa-info-circle: before {content: "\ f05a"}. fa-crosshairs: before {content : "\ f05b"}. fa-times-circle-o: before {content: "\ f05c"}. fa-check-circle-o: before {content: "\ f05d"}. fa-ban: before {content : "\ f05e"}. fa-arrow-left: antes de {content: "\ f060"}. fa-arrow-right:before {content: "\ f061"}. fa-arrow-up: before {content: "\ f062"}. fa-arrow-down: before {content: "\ f063"}. fa-mail-forward: before, .fa-share: before {content: "\ f064"}. fa-expand: before {content: "\ f065"}. fa-compress: before {content: "\ f066"}. fa-plus: before {content : "\ f067"}. fa-minus: before {content: "\ f068"}. fa-asterisk: before {content: "\ f069"}. fa-exclamation-circle: before {content: "\ f06a"} .fa-gift: before {content: "\ f06b"}. fa-leaf: before {content: "\ f06c"}. fa-fire: before {content: "\ f06d"}. fa-eye: before {content : "\ f06e"}. fa-eye-slash: before {content: "\ f070"}. fa-warning: before, .fa-exclamation-triangle: before {content: "\ f071"}. fa-plane: antes de {content: "\ f072"}. fa-calendar: antes de {content: "\ f073"}.fa-random: before {content: "\ f074"}. fa-comment: before {content: "\ f075"}. fa-magnet: before {content: "\ f076"}. fa-chevron-up: before { content: "\ f077"}. fa-chevron-down: before {content: "\ f078"}. fa-retweet: before {content: "\ f079"}. fa-shopping-cart: before {content: "\ f07a "}. fa-folder: before {content:" \ f07b "}. fa-folder-open: before {content:" \ f07c "}. fa-arrows-v: before {content:" \ f07d "}. fa-arrows-h: before {content: "\ f07e"}. fa-bar-chart-o: before, .fa-bar-chart: before {content: "\ f080"}. fa-twitter-square: before {content: "\ f081"}. fa-facebook-square: before {content: "\ f082"}. fa-camera-retro: before {content: "\ f083"}. fa-key: before {content: " \ f084 "}. fa-gears: before, .fa-cogs: before {content:" \ f085 "}. fa-comments:before {content: "\ f086"}. fa-thumbs-o-up: before {content: "\ f087"}. fa-thumbs-o-down: before {content: "\ f088"}. fa-star- half: before {content: "\ f089"}. fa-heart-o: before {content: "\ f08a"}. fa-sign-out: before {content: "\ f08b"}. fa-linkedin-square: before {content: "\ f08c"}. fa-thumb-tack: before {content: "\ f08d"}. fa-external-link: before {content: "\ f08e"}. ​​fa-sign-in: before { contenido: "\ f090"}. fa-trophy: before {content: "\ f091"}. fa-github-square: before {content: "\ f092"}. fa-upload: before {content: "\ f093" } .fa-lemon-o: before {content: "\ f094"}. fa-phone: before {content: "\ f095"}. fa-square-o: before {content: "\ f096"}. fa- bookmark-o: before {content: "\ f097"}. fa-phone-square: before {content: "\ f098"}. fa-twitter:before {content: "\ f099"}. fa-facebook-f: before, .fa-facebook: before {content: "\ f09a"}. fa-github: before {content: "\ f09b"}. fa-unlock : before {content: "\ f09c"}. fa-credit-card: before {content: "\ f09d"}. fa-feed: before, .fa-rss: before {content: "\ f09e"}. fa- hdd-o: before {content: "\ f0a0"}. fa-bullhorn: before {content: "\ f0a1"}. fa-bell: before {content: "\ f0f3"}. fa-certificate: before {content: "\ f0a3"}. fa-hand-o-right: antes de {content: "\ f0a4"}. fa-hand-o-left: antes de {content: "\ f0a5"}. fa-hand-o-up: antes {content: "\ f0a6"}. fa-hand-o-down: before {content: "\ f0a7"}. fa-arrow-circle-left: before {content: "\ f0a8"}. fa-arrow- circle-right: before {content: "\ f0a9"}. fa-arrow-circle-up: before {content: "\ f0aa"}. fa-arrow-circle-down:before {content: "\ f0ab"}. fa-globe: before {content: "\ f0ac"}. fa-wrench: before {content: "\ f0ad"}. fa-task: before {content: "\ f0ae" } .fa-filter: before {content: "\ f0b0"}. fa-briefcase: before {content: "\ f0b1"}. fa-arrows-alt: before {content: "\ f0b2"}. fa-group: before, .fa-users: before {content: "\ f0c0"}. fa-chain: before, .fa-link: before {content: "\ f0c1"}. fa-cloud: before {content: "\ f0c2" } .fa-flask: before {content: "\ f0c3"}. fa-cut: before, .fa-scissors: before {content: "\ f0c4"}. fa-copy: before, .fa-files-o: before {content: "\ f0c5"}. fa-paperclip: before {content: "\ f0c6"}. fa-save: before, .fa-floppy-o: before {content: "\ f0c7"}. fa-square : before {content: "\ f0c8"}. fa-navicon: before, .fa-reorder: before, .fa-bars: before {content: "\ f0c9 "}. fa-list-ul: before {content:" \ f0ca "}. fa-list-ol: before {content:" \ f0cb "}. fa-strikethrough: before {content:" \ f0cc "} .fa-underline: before {content: "\ f0cd"}. fa-table: before {content: "\ f0ce"}. fa-magic: before {content: "\ f0d0"}. fa-truck: before {content : "\ f0d1"}. fa-pinterest: antes {content: "\ f0d2"}. fa-pinterest-square: before {content: "\ f0d3"}. fa-google-plus-square: before {content: " \ f0d4 "}. fa-google-plus: before {content:" \ f0d5 "}. fa-money: before {content:" \ f0d6 "}. fa-caret-down: before {content:" \ f0d7 "} .fa-caret-up: antes {content: "\ f0d8"}. fa-caret-left: antes {content: "\ f0d9"}. fa-caret-right: antes {content: "\ f0da"}. fa -columnas: antes {content: "\ f0db"}. fa-unsorted: before, .fa-sort: before {content:"\ f0dc"}. fa-sort-down: antes, .fa-sort-desc: before {content: "\ f0dd"}. fa-sort-up: before, .fa-sort-asc: before {content: "\ f0de"}. fa-envoltura: antes {contenido: "\ f0e0"}. fa-linkedin: antes {contenido: "\ f0e1"}. fa-rotate-left: antes, .fa-undo: antes {contenido : "\ f0e2"}. fa-legal: antes, .fa-gavel: before {content: "\ f0e3"}. fa-dashboard: before, .fa-tachometer: before {content: "\ f0e4"}. fa -comment-o: before {content: "\ f0e5"}. fa-comments-o: before {content: "\ f0e6"}. fa-flash: before, .fa-bolt: before {content: "\ f0e7" } .fa-sitemap: before {content: "\ f0e8"}. fa-umbrella: before {content: "\ f0e9"}. fa-paste: before, .fa-clipboard: before {content: "\ f0ea"} .fa-lightbulb-o: before {content: "\ f0eb"}. fa-exchange: before {content: "\ f0ec"}. fa-cloud-download:before {content: "\ f0ed"}. fa-cloud-upload: before {content: "\ f0ee"}. fa-user-md: before {content: "\ f0f0"}. fa-stethoscope: before {content: "\ f0f1"}. fa-suitcase: before {content: "\ f0f2"}. fa-bell-o: before {content: "\ f0a2"}. fa-coffee: before {content: "\ f0f4"}. fa-cutlery: before {content: "\ f0f5"}. fa-file-text-o: before {content: "\ f0f6"}. fa-building-o: before {content: "\ f0f7"}. fa- hospital-o: antes {content: "\ f0f8"}. fa-ambulance: before {content: "\ f0f9"}. fa-medkit: before {content: "\ f0fa"}. fa-fighter-jet: before { contenido: "\ f0fb"}. fa-beer: before {content: "\ f0fc"}. fa-h-square: before {content: "\ f0fd"}. fa-plus-square: before {content: "\ f0fe "}. fa-angle-double-left: antes de {content:" \ f100 "}. fa-angle-double-right:antes de {content: "\ f101"}. fa-angle-double-up: antes de {content: "\ f102"}. fa-angle-double-down: before {content: "\ f103"}. fa-angle- izquierda: antes de {content: "\ f104"}. fa-angle-right: antes de {content: "\ f105"}. fa-angle-up: antes de {content: "\ f106"}. fa-angle-down: before {content: "\ f107"}. fa-desktop: before {content: "\ f108"}. fa-laptop: before {content: "\ f109"}. fa-tablet: before {content: "\ f10a" } .fa-mobile-phone: before, .fa-mobile: before {content: "\ f10b"}. fa-circle-o: before {content: "\ f10c"}. fa-quote-left: before {content : "\ f10d"}. fa-quote-right: before {content: "\ f10e"}. fa-spinner: before {content: "\ f110"}. fa-circle: before {content: "\ f111"} .fa-mail-reply: before, .fa-reply: before {content: "\ f112"}. fa-github-alt: before {content:"\ f113"}. fa-folder-o: before {content: "\ f114"}. fa-folder-open-o: before {content: "\ f115"}. fa-smile-o: before {content: "\ f118"}. fa-frown-o: before {content: "\ f119"}. fa-meh-o: before {content: "\ f11a"}. fa-gamepad: before {content: "\ f11b" } .fa-keyboard-o: before {content: "\ f11c"}. fa-flag-o: before {content: "\ f11d"}. fa-flag-checkered: before {content: "\ f11e"}. fa-terminal: before {content: "\ f120"}. fa-code: before {content: "\ f121"}. fa-mail-reply-all: before, .fa-reply-all: before {content: " \ f122 "}. fa-star-half-empty: before, .fa-star-half-full: before, .fa-star-half-o: before {content:" \ f123 "}. fa-location-arrow : antes de {content: "\ f124"}. fa-crop: before {content: "\ f125"}. fa-code-fork: before {content: "\ f126"}. fa-unlink: before ,.fa-chain-broken: before {content: "\ f127"}. fa-question: before {content: "\ f128"}. fa-info: before {content: "\ f129"}. fa-exclamation: before { contenido: "\ f12a"}. superíndice fa: antes {contenido: "\ f12b"}. subíndice fa: antes {contenido: "\ f12c"}. borrador-fa: antes {contenido: "\ f12d"}. fa-puzzle-piece: before {content: "\ f12e"}. fa-microphone: before {content: "\ f130"}. fa-microphone-slash: before {content: "\ f131"}. fa-shield: before {content: "\ f132"}. fa-calendar-o: before {content: "\ f133"}. fa-fire-extinguisher: before {content: "\ f134"}. fa-rocket: before {content: "\ f135"}. fa-maxcdn: before {content: "\ f136"}. fa-chevron-circle-left: before {content: "\ f137"}. fa-chevron-circle-right: before {content: "\ f138"}. fa-chevron-circle-up:before {content: "\ f139"}. fa-chevron-circle-down: before {content: "\ f13a"}. fa-html5: before {content: "\ f13b"}. fa-css3: before {content: "\ f13c"}. fa-anchor: before {content: "\ f13d"}. fa-unlock-alt: before {content: "\ f13e"}. fa-bullseye: before {content: "\ f140"}. fa-ellipsis-h: antes {content: "\ f141"}. fa-ellipsis-v: antes {content: "\ f142"}. fa-rss-square: before {content: "\ f143"}. fa- play-circle: antes de {content: "\ f144"}. fa-ticket: antes de {content: "\ f145"}. fa-minus-square: antes de {content: "\ f146"}. fa-minus-square- o: antes de {content: "\ f147"}. fa-level-up: antes de {content: "\ f148"}. fa-level-down: antes de {content: "\ f149"}. fa-check-square: antes de {content: "\ f14a"}. fa-pencil-square: antes de {content: "\ f14b"}.fa-external-link-square: before {content: "\ f14c"}. fa-share-square: before {content: "\ f14d"}. fa-compass: before {content: "\ f14e"}. fa- alternar hacia abajo: antes, .fa-caret-square-o-down: antes {content: "\ f150"}. fa-toggle-up: antes, .fa-caret-square-o-up: antes {content: "\ f151"}. fa-toggle-right: before, .fa-caret-square-o-right: before {content: "\ f152"}. fa-euro: before, .fa-eur: before {content: "\ f153"}. fa-gbp: before {content: "\ f154"}. fa-dollar: before, .fa-usd: before {content: "\ f155"}. fa-rupee: before, .fa- inr: before {content: "\ f156"}. fa-cny: before, .fa-rmb: before, .fa-yen: before, .fa-jpy: before {content: "\ f157"}. fa-ruble : antes, .fa-rublo: antes, .fa-rub: antes {content: "\ f158"}. fa-won: before, .fa-krw: before {content: "\ f159"}. fa-bitcoin: antes, .fa-btc:before {content: "\ f15a"}. fa-file: before {content: "\ f15b"}. fa-file-text: before {content: "\ f15c"}. fa-sort-alpha-asc: before { contenido: "\ f15d"}. fa-sort-alpha-desc: before {content: "\ f15e"}. fa-sort-amount-asc: before {content: "\ f160"}. fa-sort-amount- desc: antes {content: "\ f161"}. fa-sort-numeric-asc: before {content: "\ f162"}. fa-sort-numeric-desc: before {content: "\ f163"}. fa- pulgar hacia arriba: antes de {contenido: "\ f164"}. fa-pulgar hacia abajo: antes de {contenido: "\ f165"}. fa-youtube-square: antes de {contenido: "\ f166"}. fa-youtube: before {content: "\ f167"}. fa-xing: before {content: "\ f168"}. fa-xing-square: before {content: "\ f169"}. fa-youtube-play: before {content: "\ f16a"}. fa-dropbox: before {content: "\ f16b"}. fa-stack-overflow: before {content:"\ f16c"}. fa-instagram: before {content: "\ f16d"}. fa-flickr: before {content: "\ f16e"}. fa-adn: before {content: "\ f170"}. fa- bitbucket: before {content: "\ f171"}. fa-bitbucket-square: before {content: "\ f172"}. fa-tumblr: before {content: "\ f173"}. fa-tumblr-square: before { content: "\ f174"}. fa-long-arrow-down: before {content: "\ f175"}. fa-long-arrow-up: before {content: "\ f176"}. fa-long-arrow- izquierda: antes de {content: "\ f177"}. fa-long-arrow-right: antes de {content: "\ f178"}. fa-apple: antes de {content: "\ f179"}. fa-windows: antes de { contenido: "\ f17a"}. fa-android: before {content: "\ f17b"}. fa-linux: before {content: "\ f17c"}. fa-dribbble: before {content: "\ f17d"}. fa-skype: before {content: "\ f17e"}. fa-foursquare: before {content: "\ f180 "}. fa-trello: antes {content:" \ f181 "}. fa-female: antes {content:" \ f182 "}. fa-male: before {content:" \ f183 "}. fa-gittip : antes, .fa-gratipay: antes {content: "\ f184"}. fa-sun-o: before {content: "\ f185"}. fa-moon-o: before {content: "\ f186"}. fa-archive: before {content: "\ f187"}. fa-bug: before {content: "\ f188"}. fa-vk: before {content: "\ f189"}. fa-weibo: before {content: "\ f18a"}. fa-renren: antes {content: "\ f18b"}. fa-pagelines: before {content: "\ f18c"}. fa-stack-exchange: before {content: "\ f18d"}. fa-arrow-circle-o-right: before {content: "\ f18e"}. ​​fa-arrow-circle-o-left: before {content: "\ f190"}. fa-toggle-left: before, .fa -caret-square-o-left: antes de {content: "\ f191"}. fa-dot-circle-o: before {content: "\ f192"}.fa-wheelchair: before {content: "\ f193"}. fa-vimeo-square: before {content: "\ f194"}. fa-turkish-lira: before, .fa-try: before {content: "\ f195 "} .fa-plus-square-o: before {content:" \ f196 "}. fa-space-shuttle: before {content:" \ f197 "}. fa-slack: before {content:" \ f198 "} .fa-envoltura-cuadrada: antes {contenido: "\ f199"}. fa-wordpress: antes {contenido: "\ f19a"}. fa-openid: antes {contenido: "\ f19b"}. fa-institución: antes , .fa-bank: before, .fa-university: before {content: "\ f19c"}. fa-mortar-board: before, .fa-graduation-cap: before {content: "\ f19d"}. fa- yahoo: before {content: "\ f19e"}. fa-google: before {content: "\ f1a0"}. fa-reddit: before {content: "\ f1a1"}. fa-reddit-square: before {content: "\ f1a2"}. fa-stumbleupon-circle: antes de {content: "\ f1a3"}.fa-stumbleupon: before {content: "\ f1a4"}. fa-delicious: before {content: "\ f1a5"}. fa-digg: ​​before {content: "\ f1a6"}. fa-pied-piper-pp: before {content: "\ f1a7"}. fa-pied-piper-alt: before {content: "\ f1a8"}. fa-drupal: before {content: "\ f1a9"}. fa-joomla: before {content: "\ f1aa"}. fa-language: before {content: "\ f1ab"}. fa-fax: before {content: "\ f1ac"}. fa-building: before {content: "\ f1ad"}. fa- hijo: antes {content: "\ f1ae"}. fa-paw: before {content: "\ f1b0"}. fa-spoon: before {content: "\ f1b1"}. fa-cube: before {content: "\ f1b2 "}. fa-cubes: antes {content:" \ f1b3 "}. fa-behance: before {content:" \ f1b4 "}. fa-behance-square: before {content:" \ f1b5 "}. fa- steam: before {content: "\ f1b6"}. fa-steam-square: before {content: "\ f1b7 "}. fa-recycle: before {content:" \ f1b8 "}. fa-Automobile: before, .fa-car: before {content:" \ f1b9 "}. fa-cab: before, .fa-taxi : antes {content: "\ f1ba"}. fa-tree: before {content: "\ f1bb"}. fa-spotify: before {content: "\ f1bc"}. fa-deviantart: before {content: "\ f1bd "} .fa-soundcloud: antes {content:" \ f1be "}. fa-database: antes {content:" \ f1c0 "}. fa-file-pdf-o: before {content:" \ f1c1 "}. fa -file-word-o: before {content: "\ f1c2"}. fa-file-excel-o: before {content: "\ f1c3"}. fa-file-powerpoint-o: before {content: "\ f1c4 "} .fa-file-photo-o: before, .fa-file-picture-o: before, .fa-file-image-o: before {content:" \ f1c5 "}. fa-file-zip-o : antes, .fa-file-archive-o: before {content: "\ f1c6"}. fa-file-sound-o: before, .fa-file-audio-o: before {content: "\ f1c7"} .fa-file-movie-o: before, .fa-file-video-o: before {content: "\ f1c8"}. fa-file-code-o: before {content: "\ f1c9"}. fa-vine : antes {content: "\ f1ca"}. fa-codepen: before {content: "\ f1cb"}. fa-jsfiddle: before {content: "\ f1cc"}. fa-life-bouy: before, .fa- salvavidas: antes, .fa-salvavidas: antes, .fa-support: antes, .fa-life-ring: antes {content: "\ f1cd"}. fa-circle-o-notch: before {content : "\ f1ce"}. fa-ra: antes, .fa-resistencia: antes, .fa-rebelde: antes {contenido: "\ f1d0"}. fa-ge: antes, .fa-imperio: antes {contenido: "\ f1d1"}. fa-git-square: before {content: "\ f1d2"}. fa-git: before {content: "\ f1d3"}. fa-y-combinator-square: before, .fa-yc -square: before, .fa-hacker-news: before {content: "\ f1d4"}. fa-tencent-weibo: before {content: "\ f1d5"}. fa-qq: before {content: "\ f1d6" }.fa-wechat: before, .fa-weixin: before {content: "\ f1d7"}. fa-send: before, .fa-paper-plane: before {content: "\ f1d8"}. fa-send-o: antes, .fa-paper-plane-o: before {content: "\ f1d9"}. fa-history: before {content: "\ f1da"}. fa-circle-thin: before {content: "\ f1db"} .fa-header: before {content: "\ f1dc"}. fa-parameter: before {content: "\ f1dd"}. fa-sliders: before {content: "\ f1de"}. fa-share-alt: before {content: "\ f1e0"}. fa-share-alt-square: before {content: "\ f1e1"}. fa-bomb: before {content: "\ f1e2"}. fa-soccer-ball-o: before , .fa-futbol-o: before {content: "\ f1e3"}. fa-tty: before {content: "\ f1e4"}. fa-binoculars: before {content: "\ f1e5"}. fa-plug: before {content: "\ f1e6"}. fa-slideshare: before {content: "\ f1e7"}. fa-twitch: before {content: "\ f1e8 "}. fa-yelp: before {content:" \ f1e9 "}. fa-journal-o: before {content:" \ f1ea "}. fa-wifi: before {content:" \ f1eb "}. fa -calculator: before {content: "\ f1ec"}. fa-paypal: before {content: "\ f1ed"}. fa-google-wallet: before {content: "\ f1ee"}. fa-cc-visa: before {content: "\ f1f0"}. fa-cc-mastercard: before {content: "\ f1f1"}. fa-cc-discover: before {content: "\ f1f2"}. fa-cc-amex: before {content : "\ f1f3"}. fa-cc-paypal: antes {content: "\ f1f4"}. fa-cc-stripe: before {content: "\ f1f5"}. fa-bell-slash: before {content: " \ f1f6 "}. fa-bell-slash-o: before {content:" \ f1f7 "}. fa-trash: before {content:" \ f1f8 "}. fa-copyright: before {content:" \ f1f9 "} .fa-at: before {content: "\ f1fa"}. fa-eyedropper: before {content: "\ f1fb"}.fa-paint-brush: before {content: "\ f1fc"}. fa-birthday-cake: before {content: "\ f1fd"}. fa-area-chart: before {content: "\ f1fe"}. fa- gráfico circular: antes {content: "\ f200"}. fa-line-chart: before {content: "\ f201"}. fa-lastfm: before {content: "\ f202"}. fa-lastfm-square: before {content: "\ f203"}. fa-toggle-off: before {content: "\ f204"}. fa-toggle-on: before {content: "\ f205"}. fa-bicycle: before {content: "\ f206"}. fa-bus: antes {content: "\ f207"}. fa-ioxhost: antes {content: "\ f208"}. fa-angellist: before {content: "\ f209"}. fa- cc: before {content: "\ f20a"}. fa-shekel: before, .fa-sheqel: before, .fa-ils: before {content: "\ f20b"}. fa-meanpath: before {content: "\ f20c "}. fa-buysellads: before {content:" \ f20d "}. fa-connectdevelop: before {content:"\ f20e"}. fa-dashcube: antes {content: "\ f210"}. fa-forumbee: before {content: "\ f211"}. fa-leanpub: before {content: "\ f212"}. fa- sellsy: before {content: "\ f213"}. fa-shirtsinbulk: before {content: "\ f214"}. fa-simplybuilt: before {content: "\ f215"}. fa-skyatlas: before {content: "\ f216 "}. fa-cart-plus: antes de {content:" \ f217 "}. fa-cart-arrow-down: antes de {content:" \ f218 "}. fa-diamond: antes de {content:" \ f219 " } .fa-ship: before {content: "\ f21a"}. fa-user-secret: before {content: "\ f21b"}. fa-motorcycle: before {content: "\ f21c"}. fa-street- view: before {content: "\ f21d"}. fa-heartbeat: before {content: "\ f21e"}. fa-venus: before {content: "\ f221"}. fa-mars: before {content: "\ f222 "}. fa-mercury: antes de {content:" \ f223 "}.fa-intersex: before, .fa-transgender: before {content: "\ f224"}. fa-transgender-alt: before {content: "\ f225"}. fa-venus-double: before {content: "\ f226 "} .fa-mars-double: before {content:" \ f227 "}. fa-venus-mars: before {content:" \ f228 "}. fa-mars-stroke: before {content:" \ f229 "} .fa-mars-stroke-v: before {content: "\ f22a"}. fa-mars-stroke-h: before {content: "\ f22b"}. fa-neuter: before {content: "\ f22c"} .fa-genderless: before {content: "\ f22d"}. fa-facebook-official: before {content: "\ f230"}. fa-pinterest-p: before {content: "\ f231"}. fa-whatsapp : antes de {content: "\ f232"}. fa-server: before {content: "\ f233"}. fa-user-plus: before {content: "\ f234"}. fa-user-times: before {content : "\ f235"}. fa-hotel: antes, .fa-bed: antes {content: "\ f236"}.fa-viacoin: before {content: "\ f237"}. fa-train: before {content: "\ f238"}. fa-subway: before {content: "\ f239"}. fa-medium: before {content: "\ f23a"}. fa-yc: before, .fa-y-combinator: before {content: "\ f23b"}. fa-optin-monster: before {content: "\ f23c"}. fa-opencart: before {content: "\ f23d"}. fa-expeditedssl: before {content: "\ f23e"}. fa-battery-4: before, .fa-battery: before, .fa-battery-full: before {content: " \ f240 "}. fa-batería-3: antes, .fa-batería-tres cuartos: antes {contenido:" \ f241 "}. fa-batería-2: antes, .fa-batería-media: antes {contenido : "\ f242"}. fa-batería-1: antes, .fa-batería-trimestre: antes {contenido: "\ f243"}. fa-batería-0: antes, .fa-batería-vacía: antes {contenido : "\ f244"}. fa-mouse-pointer: before {content: "\ f245"}. fa-i-cursor: before {content: "\ f246 "}. fa-object-group: before {content:" \ f247 "}. fa-object-ungroup: before {content:" \ f248 "}. fa-sticky-note: before {content:" \ f249 "} .fa-sticky-note-o: before {content:" \ f24a "}. fa-cc-jcb: before {content:" \ f24b "}. fa-cc-diners-club: before {content:" \ f24c "}. fa-clone: ​​before {content:" \ f24d "}. fa-balance-scale: before {content:" \ f24e "}. fa-hourglass-o: before {content:" \ f250 "} .fa-hourglass-1: before, .fa-hourglass-start: before {content: "\ f251"}. fa-hourglass-2: before, .fa-hourglass-half: before {content: "\ f252"} .fa-hourglass-3: before, .fa-hourglass-end: before {content: "\ f253"}. fa-hourglass: before {content: "\ f254"}. fa-hand-grab-o: before, .fa-hand-rock-o: before {content: "\ f255"}. fa-hand-stop-o: before, .fa-hand-paper-o: before {content: "\ f256 "}. fa-hand-scissors-o: before {content:" \ f257 "}. fa-hand-lizard-o: before {content:" \ f258 "}. fa-hand-spock-o: before {content: "\ f259"}. fa-hand-pointer-o: before {content: "\ f25a"}. fa-hand-peace-o: before {content: "\ f25b"}. fa-brand: before {content: "\ f25c"}. fa-registradas: antes {content: "\ f25d"}. fa-creative-commons: before {content: "\ f25e"}. fa-gg: before {content: "\ f260 "} .fa-gg-circle: before {content:" \ f261 "}. fa-tripadvisor: before {content:" \ f262 "}. fa-odnoklassniki: before {content:" \ f263 "}. fa-odnoklassniki -square: before {content: "\ f264"}. fa-get-pocket: before {content: "\ f265"}. fa-wikipedia-w: before {content: "\ f266"}. fa-safari: before {content: "\ f267"}. fa-chrome: antes {content: "\ f268"}. fa-firefox:before {content: "\ f269"}. fa-opera: before {content: "\ f26a"}. fa-internet-explorer: before {content: "\ f26b"}. fa-tv: before, .fa-television : antes {content: "\ f26c"}. fa-contao: before {content: "\ f26d"}. fa-500px: before {content: "\ f26e"}. fa-amazon: before {content: "\ f270 "} .fa-calendar-plus-o: before {content:" \ f271 "}. fa-calendar-minus-o: before {content:" \ f272 "}. fa-calendar-times-o: before {content : "\ f273"}. fa-calendar-check-o: before {content: "\ f274"}. fa-industry: before {content: "\ f275"}. fa-map-pin: before {content: " \ f276 "}. fa-map-signs: antes {content:" \ f277 "}. fa-map-o: before {content:" \ f278 "}. fa-map: before {content:" \ f279 "} .fa-commenting: before {content: "\ f27a"}. fa-commenting-o: before {content: "\ f27b"}.fa-houzz: before {content: "\ f27c"}. fa-vimeo: before {content: "\ f27d"}. fa-black-tie: before {content: "\ f27e"}. fa-fonticons: before { contenido: "\ f280"}. fa-reddit-alien: before {content: "\ f281"}. fa-edge: before {content: "\ f282"}. fa-credit-card-alt: before {content: "\ f283"}. fa-codiepie: before {content: "\ f284"}. fa-modx: before {content: "\ f285"}. fa-fort-awesome: before {content: "\ f286"}. fa-usb: before {content: "\ f287"}. fa-product-hunt: before {content: "\ f288"}. fa-mixcloud: before {content: "\ f289"}. fa-scribd: before { contenido: "\ f28a"}. fa-pause-circle: before {content: "\ f28b"}. fa-pause-circle-o: before {content: "\ f28c"}. fa-stop-circle: before { contenido: "\ f28d"}. fa-stop-circle-o: antes de {content: "\ f28e"}.fa-shopping-bag: before {content: "\ f290"}. fa-shopping-basket: before {content: "\ f291"}. fa-hashtag: before {content: "\ f292"}. fa-bluetooth: before {content: "\ f293"}. fa-bluetooth-b: before {content: "\ f294"}. fa-percent: before {content: "\ f295"}. fa-gitlab: before {content: "\ f296 "}. fa-wpbeginner: before {content:" \ f297 "}. fa-wpforms: before {content:" \ f298 "}. fa-envira: before {content:" \ f299 "}. fa-universal- acceso: antes {content: "\ f29a"}. fa-wheelchair-alt: before {content: "\ f29b"}. fa-question-circle-o: before {content: "\ f29c"}. fa-blind: before {content: "\ f29d"}. fa-audio-description: before {content: "\ f29e"}. fa-volume-control-phone: before {content: "\ f2a0"}. fa-braille: before { contenido: "\ f2a1"}.fa-assistive-listening-systems: before {content: "\ f2a2"}. fa-asl-interpreting: before, .fa-american-sign-language-interpreting: before {content: "\ f2a3"}. fa-deafness : antes, .fa-sordo: antes, .fa-sordo: antes {content: "\ f2a4"}. fa-glide: before {content: "\ f2a5"}. fa-glide-g: before {content: "\ f2a6"}. fa-sign: before, .fa-sign-language: before {content: "\ f2a7"}. fa-low-vision: before {content: "\ f2a8"}. fa- viadeo: antes {content: "\ f2a9"}. fa-viadeo-square: before {content: "\ f2aa"}. fa-snapchat: before {content: "\ f2ab"}. fa-snapchat-ghost: before { contenido: "\ f2ac"}. fa-snapchat-square: before {content: "\ f2ad"}. fa-pied-piper: before {content: "\ f2ae"}. fa-first-order: before {content: "\ f2b0"}. fa-yoast: before {content: "\ f2b1"}. fa-themeisle:before {content: "\ f2b2"}. fa-google-plus-circle: before, .fa-google-plus-official: before {content: "\ f2b3"}. fa-fa: before, .fa-font- impresionante: antes de {content: "\ f2b4"}. fa-handshake-o: antes de {content: "\ f2b5"}. fa-envolvente-abierto: antes {contenido: "\ f2b6"}. fa-envolvente-abierto- o: antes {content: "\ f2b7"}. fa-linode: before {content: "\ f2b8"}. fa-address-book: before {content: "\ f2b9"}. fa-address-book-o: before {content: "\ f2ba"}. fa-vcard: before, .fa-address-card: before {content: "\ f2bb"}. fa-vcard-o: before, .fa-address-card-o: antes de {content: "\ f2bc"}. fa-user-circle: antes de {content: "\ f2bd"}. fa-user-circle-o: before {content: "\ f2be"}. fa-user-o: before {content: "\ f2c0"}. fa-id-badge: before {content: "\ f2c1"}. fa-drivers-license: before, .fa-id-card:before {content: "\ f2c2"}. fa-drivers-license-o: before, .fa-id-card-o: before {content: "\ f2c3"}. fa-quora: before {content: "\ f2c4 "} .fa-free-code-camp: before {content:" \ f2c5 "}. fa-telegram: before {content:" \ f2c6 "}. fa-thermometer-4: before, .fa-thermometer: before, .fa-thermometer-full: before {content: "\ f2c7"}. fa-thermometer-3: before, .fa-thermometer-three-quarter: before {content: "\ f2c8"}. fa-thermometer-2: antes, .fa-thermometer-half: before {content: "\ f2c9"}. fa-thermometer-1: before, .fa-thermometer-quarter: before {content: "\ f2ca"}. fa-thermometer-0: before, .fa-thermometer-empty: before {content: "\ f2cb"}. fa-shower: before {content: "\ f2cc"}. fa-bathtub: before, .fa-s15: before, .fa-bath : antes de {content: "\ f2cd"}. fa-podcast: antes de {content: "\ f2ce"}.fa-window-maximizar: antes {content: "\ f2d0"}. fa-window-minimize: before {content: "\ f2d1"}. fa-window-restore: before {content: "\ f2d2"}. fa- times-rectangle: before, .fa-window-close: before {content: "\ f2d3"}. fa-times-rectangle-o: before, .fa-window-close-o: before {content: "\ f2d4" } .fa-bandcamp: before {content: "\ f2d5"}. fa-grav: before {content: "\ f2d6"}. fa-etsy: before {content: "\ f2d7"}. fa-imdb: before { contenido: "\ f2d8"}. fa-ravelry: before {content: "\ f2d9"}. fa-eercast: before {content: "\ f2da"}. fa-microchip: before {content: "\ f2db"}. fa-snowflake-o: before {content: "\ f2dc"}. fa-superpoderes: before {content: "\ f2dd"}. fa-wpexplorer: before {content: "\ f2de"}. fa-meetup: before { contenido: "\ f2e0"}. sr-only {posición: absoluta; ancho: 1px; altura:1px; relleno: 0; margen: -1px; desbordamiento: oculto; clip: rect (0, 0, 0, 0); borde: 0} .sr-only-focusable: activo, .sr-only-focusable: focus { posición: estática; ancho: automático; altura: automático; margen: 0; desbordamiento: visible; clip: automático}
+
+
+
+ 
+
+
+
+
+/ * Magnífico Popup CSS * /
+.mfp-bg {
+  arriba: 0;
+  izquierda: 0;
+  ancho: 100%;
+  altura: 100%;
+  índice z: 1042;
+  desbordamiento: oculto;
+  posición: fija;
+  fondo: # 0b0b0b;
+  opacidad: 0.8; }
+
+.mfp-wrap {
+  arriba: 0;
+  izquierda: 0;
+  ancho: 100%;
+  altura: 100%;
+  índice z: 1043;
+  posición: fija;
+  esquema: ninguno! importante;
+  -webkit-backface-visibilidad: oculto; }
+
+.mfp-container {
+  alinear texto: centro;
+  posición: absoluta;
+  ancho: 100%;
+  altura: 100%;
+  izquierda: 0;
+  arriba: 0;
+  relleno: 0 8px;
+  tamaño de la caja: border-box; }
+
+.mfp-container: antes de {
+  contenido: '';
+  pantalla: bloque en línea;
+  altura: 100%;
+  alineación vertical: medio; }
+
+.mfp-align-top .mfp-container: antes de {
+  pantalla: ninguno; }
+
+.mfp-content {
+  posición: relativa;
+  pantalla: bloque en línea;
+  alineación vertical: medio;
+  margen: 0 automático;
+  alinear texto: izquierda;
+  índice z: 1045; }
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  ancho: 100%;
+  cursor: auto; }
+
+.mfp-ajax-cur {
+  cursor: progreso; }
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-alejar;
+  cursor: -webkit-zoom-out;
+  cursor: alejar; }
+
+.mfp-zoom {
+  cursor: puntero;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: acercamiento; }
+
+.mfp-auto-cursor .mfp-content {
+  cursor: auto; }
+
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: ninguno;
+  -moz-user-select: ninguno;
+  selección de usuario: ninguno; }
+
+.mfp-loading.mfp-figure {
+  pantalla: ninguno; }
+
+.mfp-hide {
+  pantalla: ninguna! importante; }
+
+.mfp-preloader {
+  color: #CCC;
+  posición: absoluta;
+  arriba: 50%;
+  ancho: auto;
+  alinear texto: centro;
+  margen superior: -0.8em;
+  izquierda: 8px;
+  derecha: 8px;
+  índice z: 1044; }
+  .mfp-preloader a {
+    color: #CCC; }
+    .mfp-preloader a: hover {
+      color: #FFF; }
+
+.mfp-s-ready .mfp-preloader {
+  pantalla: ninguno; }
+
+.mfp-s-error .mfp-content {
+  pantalla: ninguno; }
+
+button.mfp-close,
+button.mfp-arrow {
+  desbordamiento: visible;
+  cursor: puntero;
+  fondo: transparente;
+  borde: 0;
+  -webkit-apariencia: ninguno;
+  bloqueo de pantalla;
+  esquema: ninguno;
+  relleno: 0;
+  índice z: 1046;
+  cuadro-sombra: ninguno;
+  acción táctil: manipulación; }
+
+botón :: - moz-focus-inner {
+  relleno: 0;
+  borde: 0; }
+
+.mfp-close {
+  ancho: 44 px;
+  altura: 44 px;
+  altura de línea: 44 px;
+  posición: absoluta;
+  derecha: 0;
+  arriba: 0;
+  decoración de texto: ninguno;
+  alinear texto: centro;
+  opacidad: 0,65;
+  relleno: 0 0 18px 10px;
+  color: #FFF;
+  estilo de fuente: normal;
+  tamaño de fuente: 28px;
+  Familia tipográfica: Arial, Baskerville, monoespacio; }
+  .mfp-close: hover,
+  .mfp-close: focus {
+    opacidad: 1; }
+  .mfp-close: active {
+    arriba: 1px; }
+
+.mfp-close-btn-in .mfp-close {
+  color: # 333; }
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  derecha: -6px;
+  alineación de texto: derecha;
+  relleno derecho: 6px;
+  ancho: 100%; }
+
+.mfp-counter {
+  posición: absoluta;
+  arriba: 0;
+  derecha: 0;
+  color: #CCC;
+  tamaño de fuente: 12px;
+  altura de línea: 18 px;
+  espacio en blanco: nowrap; }
+
+.mfp-arrow {
+  posición: absoluta;
+  opacidad: 0,65;
+  margen: 0;
+  arriba: 50%;
+  margen superior: -55px;
+  relleno: 0;
+  ancho: 90 px;
+  altura: 110 px;
+  -webkit-tap-highlight-color: transparente; }
+  .mfp-arrow: activo {
+    margen superior: -54px; }
+  .mfp-arrow: hover,
+  .mfp-arrow: focus {
+    opacidad: 1; }
+  .mfp-arrow: antes,
+  .mfp-arrow: después de {
+    contenido: '';
+    bloqueo de pantalla;
+    ancho: 0;
+    altura: 0;
+    posición: absoluta;
+    izquierda: 0;
+    arriba: 0;
+    margen superior: 35 px;
+    margen izquierdo: 35 px;
+    borde: recuadro mediano transparente; }
+  .mfp-arrow: después de {
+    border-top-width: 13px;
+    ancho del borde inferior: 13px;
+    arriba: 8px; }
+  .mfp-arrow: antes de {
+    border-top-width: 21px;
+    ancho del borde inferior: 21px;
+    opacidad: 0.7; }
+
+.mfp-arrow-left {
+  izquierda: 0; }
+  .mfp-arrow-left: después de {
+    borde derecho: 17px sólido #FFF;
+    margen izquierdo: 31 px; }
+  .mfp-arrow-left: antes de {
+    margen izquierdo: 25 px;
+    borde derecho: 27 px sólido # 3F3F3F; }
+
+.mfp-arrow-right {
+  derecha: 0; }
+  .mfp-arrow-right: después de {
+    borde izquierdo: 17px sólido #FFF;
+    margen izquierdo: 39 px; }
+  .mfp-arrow-right: antes de {
+    borde izquierdo: 27 px sólido # 3F3F3F; }
+
+.mfp-iframe-holder {
+  relleno superior: 40px;
+  relleno inferior: 40px; }
+  .mfp-iframe-holder .mfp-content {
+    altura de línea: 0;
+    ancho: 100%;
+    ancho máximo: 900 px; }
+  .mfp-iframe-holder .mfp-close {
+    arriba: -40px; }
+
+.mfp-iframe-scaler {
+  ancho: 100%;
+  altura: 0;
+  desbordamiento: oculto;
+  acolchado: 56.25%; }
+  .mfp-iframe-scaler iframe {
+    posición: absoluta;
+    bloqueo de pantalla;
+    arriba: 0;
+    izquierda: 0;
+    ancho: 100%;
+    altura: 100%;
+    sombra de cuadro: 0 0 8px rgba (0, 0, 0, 0.6);
+    fondo: # 000; }
+
+/ * Imagen principal en ventana emergente * /
+img.mfp-img {
+  ancho: auto;
+  ancho máximo: 100%;
+  altura: auto;
+  bloqueo de pantalla;
+  altura de línea: 0;
+  tamaño de la caja: border-box;
+  acolchado: 40px 0 40px;
+  margen: 0 automático; }
+
+/ * La sombra detrás de la imagen * /
+.mfp-figure {
+  altura de línea: 0; }
+  .mfp-figure: después de {
+    contenido: '';
+    posición: absoluta;
+    izquierda: 0;
+    arriba: 40px;
+    abajo: 40px;
+    bloqueo de pantalla;
+    derecha: 0;
+    ancho: auto;
+    altura: auto;
+    índice z: -1;
+    sombra de cuadro: 0 0 8px rgba (0, 0, 0, 0.6);
+    fondo: # 444; }
+  .mfp-figure pequeña {
+    color: #BDBDBD;
+    bloqueo de pantalla;
+    tamaño de fuente: 12px;
+    altura de línea: 14 px; }
+  .mfp-figure figure {
+    margen: 0; }
+
+.mfp-bottom-bar {
+  margen superior: -36px;
+  posición: absoluta;
+  Top 100%;
+  izquierda: 0;
+  ancho: 100%;
+  cursor: auto; }
+
+.mfp-title {
+  alinear texto: izquierda;
+  altura de línea: 18 px;
+  color: # F3F3F3;
+  ajuste de palabra: palabra de interrupción;
+  relleno derecho: 36px; }
+
+.mfp-image-holder .mfp-content {
+  ancho máximo: 100%; }
+
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: puntero; }
+
+@media screen y (max-width: 800px) y (orientación: horizontal), screen y (max-height: 300px) {
+  / **
+       * Elimine todos los rellenos alrededor de la imagen en una pantalla pequeña
+       * /
+  .mfp-img-mobile .mfp-image-holder {
+    relleno-izquierda: 0;
+    relleno-derecho: 0; }
+  .mfp-img-mobile img.mfp-img {
+    relleno: 0; }
+  .mfp-img-mobile .mfp-figure: después de {
+    arriba: 0;
+    abajo: 0; }
+  .mfp-img-mobile .mfp-figure small {
+    pantalla: en línea;
+    margen izquierdo: 5px; }
+  .mfp-img-mobile .mfp-bottom-bar {
+    fondo: rgba (0, 0, 0, 0.6);
+    abajo: 0;
+    margen: 0;
+    arriba: auto;
+    relleno: 3px 5px;
+    posición: fija;
+    tamaño de la caja: border-box; }
+    .mfp-img-mobile .mfp-bottom-bar: vacío {
+      relleno: 0; }
+  .mfp-img-mobile .mfp-counter {
+    derecha: 5px;
+    arriba: 3px; }
+  .mfp-img-mobile .mfp-close {
+    arriba: 0;
+    derecha: 0;
+    ancho: 35px;
+    altura: 35 px;
+    altura de línea: 35 px;
+    fondo: rgba (0, 0, 0, 0.6);
+    posición: fija;
+    alinear texto: centro;
+    relleno: 0; }}
+
+@media all y (ancho máximo: 900 px) {
+  .mfp-arrow {
+    -webkit-transform: escala (0,75);
+    transformar: escala (0,75); }
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    origen de transformación: 0; }
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    origen de transformación: 100%; }
+  .mfp-container {
+    relleno-izquierda: 6px;
+    relleno derecho: 6px; }}
+
+
+
+/ * 
+ * Owl Carousel - Animate Plugin
+ * /
+.owl-carrusel .animado {
+  -webkit-animation-duración: 1000ms;
+  duración de la animación: 1000 ms;
+  -webkit-animation-fill-mode: ambos;
+  modo de relleno de animación: ambos;
+}
+.owl-carousel .owl-animated-in {
+  índice z: 0;
+}
+.owl-carousel .owl-animated-out {
+  índice z: 1;
+}
+.owl-carrusel .fadeOut {
+  -webkit-animation-name: fadeOut;
+  nombre-animación: fadeOut;
+}
+
+@ -webkit-keyframes fadeOut {
+  0% {
+    opacidad: 1;
+  }
+
+  100% {
+    opacidad: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacidad: 1;
+  }
+
+  100% {
+    opacidad: 0;
+  }
+}
+
+/ * 
+ * Owl Carousel - Complemento de altura automática
+ * /
+.owl-height {
+  -webkit-transition: altura 500ms facilidad de entrada;
+  -moz-transición: altura 500ms facilidad de entrada;
+  -ms-transición: altura 500ms facilidad de entrada;
+  -o-transición: altura 500 ms facilidad de entrada;
+  transición: altura 500 ms facilidad de entrada;
+}
+
+/ * 
+ * Archivo CSS Core Owl Carousel
+ * /
+.owl-carrusel {
+  pantalla: ninguno;
+  ancho: 100%;
+  -webkit-tap-highlight-color: transparente;
+  / * problema relativo a las fuentes de representación del webkit de la posición relativa y del índice z * * /
+  posición: relativa;
+  índice z: 1;
+}
+.owl-carrusel .owl-stage {
+  posición: relativa;
+  -ms-touch-action: pan-Y;
+}
+.owl-carrusel .owl-stage: después de {
+  contenido: ".";
+  bloqueo de pantalla;
+  Limpia los dos;
+  visibilidad: oculta;
+  altura de línea: 0;
+  altura: 0;
+}
+.owl-carrusel .owl-stage-outside {
+  posición: relativa;
+  desbordamiento: oculto;
+  / * corrección para el fondo intermitente * /
+  -webkit-transform: translate3d (0px, 0px, 0px);
+}
+.owl-carrusel .owl-controles .owl-nav .owl-prev,
+.owl-carrusel .owl-controles .owl-nav .owl-next,
+.owl-carrusel .owl-controles .owl-dot {
+  cursor: puntero;
+  cursor: mano;
+  -webkit-user-select: ninguno;
+  -khtml-user-select: ninguno;
+  -moz-user-select: ninguno;
+  -ms-user-select: ninguno;
+  selección de usuario: ninguno;
+}
+.owl-carousel.owl-loaded {
+  bloqueo de pantalla;
+}
+.owl-carousel.owl-loading {
+  opacidad: 0;
+  bloqueo de pantalla;
+}
+.owl-carousel.owl-hidden {
+  opacidad: 0;
+}
+.owl-carrusel .owl-refresh .owl-item {
+  pantalla: ninguno;
+}
+.owl-carrusel .owl-item {
+  posición: relativa;
+  altura mínima: 1px;
+  flotador izquierdo;
+  -webkit-backface-visibilidad: oculto;
+  -webkit-tap-highlight-color: transparente;
+  -webkit-touch-callout: ninguno;
+  -webkit-user-select: ninguno;
+  -moz-user-select: ninguno;
+  -ms-user-select: ninguno;
+  selección de usuario: ninguno;
+}
+.owl-carrusel .owl-item img {
+  bloqueo de pantalla;
+  ancho: 100%;
+  -webkit-transform-style: preservar-3d;
+}
+.owl-carousel.owl-text-select-on .owl-item {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  selección de usuario: auto;
+}
+.owl-carrusel .owl-grab {
+  cursor: mover;
+  cursor: -webkit-grab;
+  cursor: -o-grab;
+  cursor: -ms-grab;
+  cursor: agarrar;
+}
+.owl-carousel.owl-rtl {
+  dirección: rtl;
+}
+.owl-carousel.owl-rtl .owl-item {
+  flotar derecho;
+}
+
+/ * No Js * /
+.no-js .owl-carousel {
+  bloqueo de pantalla;
+}
+
+/ * 
+ * Owl Carousel - Lazy Load Plugin
+ * /
+.owl-carrusel .owl-item .owl-lazy {
+  opacidad: 0;
+  -webkit-transition: opacidad 400ms facilidad;
+  -moz-transición: opacidad 400ms facilidad;
+  -ms-transition: opacidad 400ms facilidad;
+  -o-transición: opacidad 400ms facilidad;
+  transición: opacidad 400ms facilidad;
+}
+.owl-carrusel .owl-item img {
+  transformar-estilo: preservar-3d;
+}
+
+/ * 
+ * Owl Carousel - Complemento de video
+ * /
+.owl-carousel .owl-video-wrapper {
+  posición: relativa;
+  altura: 100%;
+  fondo: # 000;
+}
+.owl-carousel .owl-video-play-icon {
+  posición: absoluta;
+  altura: 80 px;
+  ancho: 80px;
+  izquierda: 50%;
+  arriba: 50%;
+  margen izquierdo: -40px;
+  margen superior: -40px;
+  fondo: url ("owl.video.play.png") sin repetición;
+  cursor: puntero;
+  índice z: 1;
+  -webkit-backface-visibilidad: oculto;
+  -webkit-transition: escala 100ms facilidad;
+  -moz-transición: escala 100ms facilidad;
+  -ms-transition: escala 100ms facilidad;
+  -o-transición: escala 100ms facilidad;
+  transición: escala 100ms facilidad;
+}
+.owl-carousel .owl-video-play-icon: hover {
+  -webkit-transition: escala (1.3, 1.3);
+  -moz-transición: escala (1.3, 1.3);
+  -ms-transition: escala (1.3, 1.3);
+  -o-transición: escala (1.3, 1.3);
+  transición: escala (1.3, 1.3);
+}
+.owl-carrusel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  pantalla: ninguno;
+}
+.owl-carousel .owl-video-tn {
+  opacidad: 0;
+  altura: 100%;
+  posición de fondo: centro centro;
+  repetición de fondo: sin repetición;
+  -webkit-background-size: contiene;
+  -moz-background-size: contiene;
+  -o-background-size: contiene;
+  tamaño de fondo: contener;
+  -webkit-transition: opacidad 400ms facilidad;
+  -moz-transición: opacidad 400ms facilidad;
+  -ms-transition: opacidad 400ms facilidad;
+  -o-transición: opacidad 400ms facilidad;
+  transición: opacidad 400ms facilidad;
+}
+.owl-carousel .owl-video-frame {
+  posición: relativa;
+  índice z: 1;
+}
+
+
+.owl-theme .owl-controls {margin-top: 10px; text-align: center; -webkit-tap-highlight-color: transparent} .owl-theme .owl-controls .owl-nav [class * = owl- ] {color: #fff; tamaño de fuente: 14px; margen: 5px; relleno: 4px 7px; fondo: # d6d6d6; pantalla: bloque en línea; cursor: puntero; -webkit-border-radius: 3px; -moz-border -radius: 3px; border-radius: 3px} .owl-theme .owl-controls .owl-nav [class * = owl -]: hover {background: # 869791; color: #fff; text-decoration: none}. owl-theme .owl-controls .owl-nav .disabled {opacity: .5; cursor: default} .owl-theme .owl-dots .owl-dot {display: inline-block; zoom: 1; * display: inline } .owl-theme .owl-dots .owl-dot span {ancho: 10px; altura: 10px; margen: 5px 7px; fondo: # d6d6d6; pantalla: bloque; -webkit-backface-visibilidad: visible; -webkit-transition : opacidad 200ms facilidad; -moz-transición: opacidad 200ms facilidad; -ms-transición: opacidad 200ms facilidad; -o-transición: opacidad 200ms facilidad;transición: opacidad 200ms facilidad; -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px} .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot: hover span {background: # 869791
